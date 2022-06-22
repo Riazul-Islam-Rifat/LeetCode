@@ -31,6 +31,10 @@ class BinaryTree:
             print("True")
         else:
             print("False")
+    # For leetcode submission 
+    '''class Solution:
+        def checkTree(self, root: Optional[TreeNode]) -> bool:
+            return root.val == root.left.val + root.right.val'''
 
 arr=[]
 tree=BinaryTree(5)
