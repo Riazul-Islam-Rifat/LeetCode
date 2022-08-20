@@ -25,7 +25,7 @@ class LinkedListHead:
     def print_LinkedList(self):
         current= self.head
         while current:
-            print(current.data, end=' ')
+            print('--> ', current.data, end=' ')
             current = current.next
 
 linkedList = LinkedListHead()
@@ -36,7 +36,7 @@ linkedList.insert(3)
 linkedList.insert(4)
 linkedList.insert(5)
 
-print("Printing the linked list")
+print("Printing the linked list ")
 
 linkedList.print_LinkedList()
 
