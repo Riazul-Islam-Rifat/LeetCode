@@ -7,4 +7,4 @@ class Solution:
             return edges[0][0]
 
         else:
-            return edges[0][1] 
+            return edges[0][1]
