@@ -3,7 +3,7 @@ class Solution:
 
         for item in range(len(s)):
             # if part in s then we replace it with ""
-            # We replace one occurance at a time from left
+            # We replace one occurrence at a time from left
             if part in s:
                 s = s.replace(part, "", 1)
 
