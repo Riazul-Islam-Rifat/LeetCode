@@ -8,7 +8,7 @@ class ListNode:
 class Solution:
     def isPalindrome(self, head: Optional[ListNode]) -> bool:
 
-        # Initializig a string named linked_val
+        # Initializing a string named linked_val
         linked_val = ''
 
         # Initializing a boolean value
