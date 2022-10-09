@@ -14,7 +14,7 @@ class Solution:
         # Initializing a list with the length of K
         UAM = [0] * k
 
-        # Overall user's 
+        # Overall user's
         unique_min = []
 
         for item in unique_AM.values():
