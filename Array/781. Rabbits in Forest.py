@@ -7,5 +7,6 @@ class Solution:
         tracker = Counter(answers)
         rabbits = 0
         for key, value in tracker.items():
-            rabbits += ((key + 1) * (math.ceil(value / key + 1)))
+            rabbits += ((key + 1) * (math.ceil(value / (key + 1))))
         return rabbits
+
