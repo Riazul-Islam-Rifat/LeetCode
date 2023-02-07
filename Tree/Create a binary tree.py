@@ -52,6 +52,7 @@ class BinaryTree:
         return sum(path_list)
         #return all_path(root, path)
 
+
 root=BinaryTree("6")
 root.insert("8")
 root.insert("7")
