@@ -1,5 +1,5 @@
 class Solution:
-    def maxTwoEvents(self, events: List[List[int]]) -> int:
+    def maxTwoEvents(self, events: [[int]]) -> int:
         tracker = []
         res = 0
         CurrentMaxVal = 0  # Max value of finished events so far
