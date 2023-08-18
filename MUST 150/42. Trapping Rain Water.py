@@ -1,4 +1,5 @@
 class Solution:
+
     def trap(self, height: [int]) -> int:
         # Time complexity: O(n)
         # Space complexity: O(1)
