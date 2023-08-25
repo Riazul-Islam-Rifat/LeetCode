@@ -11,3 +11,6 @@ class Solution:
             width += len(w)
 
         return res + [' '.join(line).ljust(maxWidth)]
+
+    # Time complexity: O(n)
+    # Space complexity: O(n*m)
