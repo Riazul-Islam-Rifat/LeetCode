@@ -11,7 +11,7 @@ class Solution:
 
         for r in range(9):
             for c in range(9):
-                # If the value is not valied integer then we continue
+                # If the value is not valid integer then we continue
                 if board[r][c] == '.':
                     continue
                 # If the value is found in the same row before
