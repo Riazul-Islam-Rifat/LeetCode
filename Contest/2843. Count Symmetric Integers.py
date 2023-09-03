@@ -1,4 +1,5 @@
 class Solution:
+    # Time complexity: O(n^2)
     def countSymmetricIntegers(self, low: int, high: int) -> int:
         counter = 0
         for i in range(low, high + 1):
