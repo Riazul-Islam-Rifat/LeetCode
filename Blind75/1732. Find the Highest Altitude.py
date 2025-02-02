@@ -7,4 +7,4 @@ class Solution:
             preSum += i
             maxAlt = max(maxAlt, preSum)
 
-        return maxAlt 
+        return maxAlt
